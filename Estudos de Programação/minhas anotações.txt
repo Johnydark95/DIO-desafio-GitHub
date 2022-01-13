@@ -1,0 +1,736 @@
+Logica de Programação
+DIO | Inter
+
+Significados de Lógica:
+"Coerência de raciocínio, de ideias"
+"sequencia coerente, regular e necessária de acontecimentos, coisas"
+
+Abstração - duas ou mais maneiras de resolver um problema.
+"é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando caracteristicas menos importantes ou acidentais."
+
+média aritmetica
+n1 + n2 + n3 + n4 / 4 = média
+
+Algoritmo
+"é uma sequencia de passos que resolve um problema"
+
+Inicio_dia
+      acordei
+      me troquei
+      acordei meu filho
+      troquei ele
+      arrumei as nossas mochilas
+      chamei o uber
+      pegamos o uber até minha tia
+      deixei ele lá e fui trabalhar
+Fim_dia
+
+Pseudocódigo
+"é uma forma generica de escrever um algoritmo, utilizando uma linguagem simples de forma a ser entendida por qualquer pessoa"
+
+Fluxograma
+"é uma ferramenta utilizada representar graficamente o algoritmo, a sequencia logica coerente do fluxo de dados"
+
+"um fluxograma é um tipo de diagrama e pode ser entendido como uma representação esquematica de um processo. podemos entende-lo, na pratica, como a documentação dos passos necessarios para execução de algo qualquer"
+
+Variáveis
+"na programação, uma variavel é um objeto (uma posição, frequentemente localizada na memoria) capaz de reter e representar um valor ou expressão"
+
+"é um espaço na memoria do computador destinado a um dado que é alterado durante a execução do algoritmo"
+
+"as variaveis e as constantes podem ser classificadas basicamente de quatro tipos: numericas, caracteres, alfanumericas (letras e numeros: nomes) ou lógicas ( verdadeiro ou falso)"
+
+"sempre começa por letra, evitar acentuação"
+
+Constante
+"as constantes são valores imutaveis e não são alterados durante a vida útil do programa"
+
+Expressões aritméticas
+"são expressões que utilizam operadores aritmeticos e funções aritmeticas envolvendo constantes e variaveis"
+
+soma +
+subtração - 
+multiplicação *
+divisão / 
+petenciação ^
+porcentagem %
+
+Expressões literais
+"são expressões com constantes e ou variaveis que tem como resultado valores literais. iremos utilizar as expressões literais na atribuição de valor para uma variavel ou constante"
+
+exemplos:
+nome="José da Silva"
+nome <- "José da Silva"
+media=(nota1+nota2+nota3+nota4)/4
+
+Operadores relacionais
+"são expressões compostas por outras expressões ou variaveis numericas com operadores relacionais. as expressões relacionais retornam valores logicos (verdadeiro / falso)"
+
+> maior que
+>= maior ou igual
+< menor que
+<= menor ou igual
+== igualdade
+!= ou <> diferente de 
+
+Tomadas de decisão
+"quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependende de alguma condição encontrada durante a execução"
+
+sempre que for escrever texto é entre aspas duplas " "
+
+Concatenação
+"é um termo usado em computação para designar a operação de unir o conteudo de duas strings"
+
+"string é uma sequencia de caracteres"
+
+"agrupamento de duas ou mais celulas que, incluondo formulas, textos ou outras informações contida no seu inteior, dá origem a um unico resultado"
+
+& . ou + são sinais de concatenação
+
+
+Estrutura de repetição
+"Dentro da logica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador."
+
+Linguagem de Programaççao e o Portugol 
+"LDP é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programad (sofware). um software pode ser desenvolvido para todar em um computador, dispositivo movel ou em qualquer equipamento que permita sua execução."
+
+"o que é obvio para voce, certamente não é obvio para uma maquina. e se voce quer que a maquina faça algo para voce, voce precisa "falar com ela".
+
+A função das lingagues de programação pe servir de um meio de comunicação entre computadores e humanos.
+
+Alto nivel 
+"essas sao aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de maquina 
+- C / PHP / C# / C++ / PYTHON
+
+Baixo nivel
+"é aquela que se aproxima mais da linguagem de maquina. essas sao as que voce precisa ter conhecimento direto da arquitetura do computador para fazer alguma coisa.
+- assembly
+
+Compiladas
+" é uma linguagem de programação em que o código fonte, é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação"
+- C# / visualbasic / C++
+
+interpretadas
+"é uma linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador"
+- javascript / PHP / Python
+
+Portugol
+" é uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em portugues de forma simples e intuitiva, independentemente de linguagem de programação"
+
+"É uma pseudolinguagem que permite ao programador pensar no problema em si e não no equipamento que irá executar o algoritmo"
+
+cadeia = texto
+escreva = comando
+leia = lê a variavel
++ concatenação no portugol
+
+
+Desvios condicionais e boas praticas em programação
+SE
+"é utilizada a palavra reservada SE, a condição a ser testada entre parenteses e as instruções que devem ser executadas entre chaves caso o desvio seja verdadeiro"
+
+ex: 
+se (media>=7 {
+     escreva("parabens! você foi aprovado!")
+}
+
+"\n" +" quebrar a linha e ir para a de baixo
+// comentario no portugol
+
+SE-NÃO
+"agora vamos imaginar que se a condição for falsa um outro conjunto de comandos deve ser executado. quando iremos encontrar esta situação?"
+
+ex: 
+se (media>=7 {
+     escreva("parabens! você foi aprovado!")
+}
+
+senão {
+     escreva("infelizmente você foi reprovado")
+}
+
+Desvio condicional - caso
+"este comando é similar aos comandos SE e SENÃO, e reduz a complexidade na escolha de diversas opções. apesar de suas similaridades com o SE, ele possui algumas diferenças. neste comando não é possivel o uso de orperadores logicos, ele apenas trabalha com valores definidos"
+
+Estrutura de repetição
+"dentro da LDP é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador"
+
+contador ++ = contador=contador+1
+
+
+Matrizes e Vetores
+"uma matriz é uma coleção de variaveis de mesmo tipo, acessiveis com um único nome e armazenados contiguamente na memoria"
+
+"a individualização de cada variavel de um vetor é feita através do uso de indices"
+
+"os vetores são matrizes de uma só dimensão"
+
+exemplo:
+
+cadeia Vetor[5]; // declara um vetor de 5 posições
+cadeia Matriz[5][3]; // declara uma matriz de 5 linhas e 3 colunas
+
+cadeia frutas[4];
+frutas[0]="laranja"
+frutas[1]="morango"
+frutas[2]="limão"
+frutas[3]="melancia"
+escreva(frutas[1])
+
+cadeoa cesta 
+
+
+
+
+Conceitos iniciais sobre estrutura de dados, arrays e registro
+
+Estrutura de Dados
+"é uma estrutura organizada de dados na memoria de um computador ou em qualquer dispositivo de armazenamento, de forma que os dados possam ser utilizados de forma correta"
+
+"essas estruturas encontram muitas aplicações no desenvolimento de sistemas, sendo que algumas são altamente especiliazadas e utilizadas em tarefas especificas. 
+usando as estruturas adequadas através de algoritmos, podemos trabalhar com uma grande quantidade de dados, como aplicações em bancos de dados ou serviços de busca"
+
+Algoritmo
+"é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação especifica."
+
+"os algoritmos são utilizados para manipular dados nas estruturas de várias formas, como por exemplo: inserir, excluir, procurar e ordenar dados."
+
+operações de estrutura de dados
+Em uma estrutura de dados devemos saber como realizar um determinado conjunto de operações básicas, como por exemplo:
+
+- inserir dados
+- excluir dados
+- localizar um elemento
+- percorrer todos os itens constituientes da estrutura para visualização
+- classificar, que se resume em colocar os itens de dados em uma determinada ordem (numerica, alfabética, etc)
+
+Principais estruturas de dados:
+- vetores e matrizes
+- registro
+- lista
+- pilha
+- arvore
+- tabela hash
+- grafos
+
+
+Vetores e Matrizes
+conhecidos também como Arrays são estruturas de dados simples que podem auxiliar quando há muitas variaveis do mesmo tipo em um algoritmo.
+
+Vetor ou Array uni-dimensional é uma variavel que armazena várias variaveis do mesmo tipo
+
+o vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo.
+
+Matriz ou Array multi-dimensional é um vetor de vetores
+
+uma matriz é um vetor que possui duas ou mais dimensões.
+matriz 4x3:
+
+2  -1  3  1
+0  -2  5  4
+-3  1  0  6
+
+Registro
+"um registro é uma estrutura que fornece um formato especializado para armazenar um espaço na memmoria."
+
+"enquanto arrays nos permitem armazenar varias dados de um unico tipo de dados, o recurso de registro nos permite armazenar mais de um tipo de dado."
+
+"um registro é composto por campos que especificam cada um das informações que o compõem."
+
+abaixo podemos ver alguns campos de exemplo que constituem o registro de um cliente:
+CPF | 
+Nome |
+Endereço |
+Contato |
+
+Toda estrutura de registro tem um nome (ex:livro), e seus campos podem ser acessados por meio de uso de operador ponto (.) Por exemplo, para acessar o preço de um livro, poderíamos utilizar a seguinte declaração: 
+
+livro.preco
+
+Listas
+"estruturas de dados do tipo lista, armazena dados de um determinado tipo em uma ordem especifica"
+
+"a diferença entre listaas e arrays é a de que as listas possuem tamanho ajustavel, enquanto arrays possuem tamanho fixo."
+
+existem dois tipos de listas:
+- ligadas
+- duplamente ligadas
+
+Lista Ligada
+"na estrutura do tipo lista ligada existem os nós onde cada um de nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso ela é chamada de "lista ligada", pois os nós sao amarrados com essa indicação  de qual é o proximo nó"
+
+Lista duplamente ligada
+"a grande diferença das listas duplamente ligadas para as listas ligadas é que elas são bidirecionais. vimos que, naturalmente, nao conseguimos "andar para trás" em listas ligadas, pois os nós de uma lista ligada sabem somente quem é o proximo elemento. nas listas duplamente ligadas, os nós sabem quem é o proximo elemento e tambem quem é o elemento anterior, o que permite a navegação reversa."
+
+Pilhas
+"uma pilha é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenados
+
+o acesso aos itens de uma pilha é restrito - somente um item pode ser lido ou removido por vez.
+
+tipos de pilhas:
+LIFO OU UEPS
+FIFO OU PEPS
+
+LIFO OU UEPS
+"a estrutura do tipo PILHA LIFO (Last In First Out) ou UEPS (último que entra primeiro que sai), apresenta o seguinte criterio: o primeiro elemento a ser retirado é o ultimo que tiver sido inserido.
+
+FIFO OU PEPS
+"a estrutura do tipo PILHA FIFO (Fist In First Out), ou PEPS ( primeiro que entra primeiro que sai), aprensenta o seguinte criterio: o primeiro a ser retirado é o primeiro que tiver sido inserido."
+
+Filas
+"A estrutura do tipo Fila admite remoção de elementos e inserçao de novos sujeita a seguinte regra de operação:
+- o elemento removido é o que está na estreutura há mais tempo ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO."
+
+
+Estrutura de Dados
+- Arvore
+- Tabela Hash 
+- Grafos
+
+Arvore
+"é uma estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da arvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas"
+
+Tabela Hash / Tabela de Espalhamento
+"uma entrutura hash, de dispersão ou espelhamento é uma estrutura de dados especial, que associa chaves de pesquisa a valores"
+
+Hashing
+"uma tabela hash é uma generalização da ideia de array, porém utiliza uma funçao denominada Hashing para espalhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela."
+
+Porque espalhar?
+a Tabela Hash permite a associação de "valores" a "chaves"
+
+Valores: é a posição ou indice onde o elemento se encontra
+
+Chave: parte da informação que compõe o elemento a ser manipulado
+
+Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição do "array"
+
+Grafos
+Grafos são estruturas que permitem programar a relação entre objetos
+
+os objetos são vertices ou nós do grafo
+
+os relacionamentos são as arestas
+
+Git & GitHub
+
+Git - versionamento de codigos
+- bitkeeper, cvs, subversion
+
+GitHub - repositorio de codigo online
+-bitbucket
+-gitlab
+
+vantagens e utilidades:
+- controle de versão
+- armazenamento em nuvem
+- trabalho em equipe
+- melhorar seu código
+- reconhecimento
+
+
+Navegação básica no terminal & instalação
+
+GUI X CLI
+
+GUI - Graphical User Interface
+CLI - Command Line Interface
+
+comandos:
+- mudar de pastas / selecionar pasta
+- listar as pastas
+- criar pastas/arquivos
+- deletar pastas/arquivos
+
+windows
+- cd / mudar de pastas
+- dir / listar pastas
+- mkdir / criar pastas/arquivos
+- del - rmdir / deletar pastas/arquivos
+- .. / retorna a pasta anterior
+- cls / limpar o terminal
+- TAB / autocompletar nomes
+
+Como Git funciona:
+- SHA1
+- Objetos fundamentais
+- Sistema distribuido
+- Segurança
+
+SHA1 - Algoritmo de Encriptação
+" a sigla SHA significa Secure Hash Algorithm  (Algoritmo de Hash Seguro), é um conjunto de funções shash criptograficas projetadas pela NSA (Agencia de Segurança Nacional dos EUA)
+
+a encriptação gera um conjunto de characteres identificador de 40 digitos.
+
+é uma forma curta de represnetar o estado de um arquivo.
+
+Objetos internos do Git:
+- Blobs - são o sha1 dos arquivos
+- Trees - aponta para os blobs com seu sha1
+- Commits - dá significancia para todo o conjunto de alteração, que aponta para as arvores que aponta para as bolhas
+
+Blobs
+1 echo 'conteudo' | git sash-object --stdin
+2 > sha1
+3
+4 echo -e  'blob 9\0 conteudo' | openssl sha1
+5 > sha1
+
+estrutura do blob:
+tipo do objeto, tamanho da string e o conteudo do arquivo. contem metadados "\0"
+
+Tree
+armazenam blobs numa crescente. contem meta dados "\0". monta estrutura de onde estão lozalizados os arquivos. apontam para blobs e outras arvores.
+
+tree 
+   v          v            v
+blob     blob       tree
+                             v
+                           blob
+
+Commit
+Objeto que une toda a estrutura. aponta para uma arvore, parente (ultimo commit realizado antes dele), autor e mensagem. possui timestamp: horario que foi criado. também possui o sha1. caso haja alteração em um blob será alterado o sha1 de toda a estrutura desde o blob, a tree e o commit. o commit é unico para cada autor.
+
+Chaves SSH
+conexão segura entre duas maquinas. duas chaves: publica e privada.
+
+
+
+
+
+
+Introdução ao GitHub
+- git init / iniciar o GIT
+- git add / iniciar o versionamento / mover arquivos
+- git commit / criar um commit
+
+Ctrl + L = LIMPAR
+
+flag: ls -a = mostra arquivos ocultos
+
+
+
+Ciclo de vida do arquivo
+
+git add > arquivo untracked > staged
+
+arquivo unmodified > ainda não sofreu modificação / apos modificado > modified
+
+git add no arquivo unmodified > "staged arquivo"
+
+commit retorna para unmodified
+
+unmodified, modified e staged é um ciclo 
+
+servidor > remote repository
+
+ambiente de desenvolvimento > working directory, staging area e local repository
+
+> quando adiciona um arquivo "untracked" e da um git add é movido para "staged"
+
+> quando o arquivo modificado da um git add é movido para "staged"
+
+> quando faz um commit move os arquivos da area de "staged" e move para "unmodified" retornando ao ciclo
+
+> tudo que está no repositorio local é commit
+
+git status
+
+echo > criar arquivo
+
+
+> git add nomeArquivo > adiciona o arquivo de "Untracked" á "staged"
+> git add * > edita o arquivo de "unmodified" á "modified"
+> git add . > move arquivo de "modified" á "staged"
+
+> git commit -m "msg" > todos os arquivos em staged, envolopa eles dando siginificancia e transforma em commit
+
+Projetos agéis com SCRUM
+
+Desafios do Desenvolvimento de Software
+- objetivos do negocio  > requisitos
+- processo de desenvolvimento:
+concepção
+analise e design
+desenvolvimento
+testes
+implantação
+
+"o principio de Pareto também se aplica ao desenvolvimento de software, onde 20% das funcionalidades costumam gerae 80% ou mais do beneficio esperado."
+
+7% sempre
+13% frequentemente
+16% as vzes
+19% raramente
+45% nunca
+
+Gestão de projetos
+tradicional x agil
+
+tradicional (waterfall):
+"só permite que o projeto avance quando uma fase está inteiramente completa"
+requirement > requetiment doc. / prepare use cases
+design > software archtecture / map the stakeholders
+implementation > construct thw software / data storage & retrieval
+verification > install / test and debug
+maintenance > check errors / optimize capabilities
+
+Agil: software construido por partes incremental e cada parte executa-se em um ciclo (iterativo)
+
+tradicional:
+- escopo definido na fase inicial do projeto (preditivo)
+- projeto é controlado por fases e marcos
+- cliente só vê o software funcionando na fase final do projeto
+- resistencia a mudanças
+
+ágil:
+- escopo definido ao longo do porjeto (adaptativo)
+- projeto é controlado por funcionalidades entregues
+- cliente pode ver parte do software funcionando na parte inicial do projeto
+- mudanças constantes de acordo com os feddbacks continuos.
+
+em projetos tradicionais (waterfall), você corre o risco de descobrir que estava errado depois de meses. com o SCRUM, você descobre que estava errado em no maximo 30 dias.
+
+o que é ser ágil? é diferente de rápido.
+- rapidez (mudança) e desembaraço
+- fazer coisas complexas de forma simples
+- equipe comprometida com os objetivos
+- maior valor para o cliente
+- ter capacidade de responder rapidamente a mudanças
+
+SCRUM
+- é um dos frameworks de gerenciamento de projetos ageis
+- projetos usando equipes pequenas e multidisciplinares produzem os melhores resultados
+
+transparência / adaptação / inspeção
+
+- conversar mais e escrever menos / transparencia
+- demonstrar o software constantemente aos usuarios e obter feedbacks constantes / adaptação e transparencia
+- requisitos mudam ao longo do tempo / adaptação
+- aprender progressivamente com o uso do software / inspeção
+
+razões para adotar o SCRUM:
+- desenvolvido e entregue em partes menores (2 a 4 semanas), com constante feedback dos usuarios
+- melhor gerenciamento de riscos (redução de incertezas)
+- comprometimento, motivação e transparencia da equipe (daily meeting)
+- maior valor para o negocio (priorização do backlog)
+- usuarios envolvidos durante todo o ciclo
+- aplicação das lições aprendidas (melhoria continua)
+
+caracteristica do time SCRUM:
+- equipes capazes de se auto-organizarem
+- as tarefas são do time e todos são responsaveis
+- forte comprometimento com os resultados
+
+startups utilizam framework ageis: MVP
+Minimum Viable Product
+
+Papéis e responsabilidades de cada um do time SCRUM
+
+product owner PO - dono do produto
+scrum master SM 
+time de desenvolvimento DEV
+
+Product Owner
+- representante da area de negocios
+- PO não é um comite(equipe)
+- define as funcionalidades do software (product backlog)
+- prioriza as funcionalidades de acordo com o valor do negocio
+- garante que o time de desenvolvimento entenda os itens do backlog do nivel necessario
+
+Scrum Master
+- garante o uso correto do SCRUM
+- scrum master não é o gerente de projetos
+- age como facilitador
+- auxilia o PO no planejamento e estimativas do backlog
+- treina o time em autogerenciamento e interdisciplinaridade
+
+Time de DEV
+- possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessario para entregar o software funcionando.
+
+Cerimônias do Scrum
+
+Time Box
+"tempo maximo definido para fazer uma cerimonia ou sprint"
+
+sprint = corrida, arrancada
+"é o principal evento do SCRUM"
+"tem duração de 30 dias corridos ou menos"
+
+composição de uma sprint:
+- planejamento da sprint
+- reuniões diarias (daily meeting)
+- revisão da sprint (review)
+- retrospectiva da sprint
+
+Planejamento da Sprint
+sprint de 30 dias
+time box 8h
+
+quem participa?
+1 dia - PO, time dev e o scrum master
+
+o que fazer?
+- PO vai explicar para o time o que ele deseja naquela sprint, quais as funcionalidades e o que precisa ser entregue
+- o time vai tirar todas as duvidas.
+
+como fazer?
+- o time acaba estimando como que deve ser feito
+- planning poker: cada um opina uma estimativa de tarefa e o time entra em um acordo.
+
+Reuniões Diarias - Daily Meeting
+StandUp Meeting (reunião em pé) 
+duração de no maximo 15 minutos
+O time dev responde 3 perguntas: 
+- o que fez no dia anterior?
+- o que está programado para o dia?
+- quais os empedimentos?
+
+atualizar:
+tarefas para fazer / tarefas em andamento / tarefas realizadas
+
+Revisão da Sprint (review)
+duração de 4h - feito no último dia
+- Time dev apresenta para o PO o trabalho feito
+
+Retrospectiva da Sprint
+duração de 3h
+- reunião da equipe para lições aprendidas
+- transparencia: apontar os erros que a equipe teve para não repetir os mesmos problemas 
+
+Fundamentos de um projeto ágil
+
+Papeis e responsabilidades - Product Owner
+"O Product Owner (PO) representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços e os objetivos a serem alcançados."
+
+não há divisão hierarquica entre as três posições do time scrum.
+
+Product Owner
+- representante da area de negocios
+- PO não é um comite
+- define as funcionalidades do software (product Backlog)
+- prioriza as funcionalidades de acordo com o valor do negocio
+- garante que o time de desenvolvimento entenda os itens do backlog no nivel necessário
+
+Refining e Planning
+
+Refining > product backlog
+- apresenta ao time um previa sobre a planning
+- garantir que ninguem saia com duvida na planning
+
+Planning > sprint backlog
+1 parte > 
+- apresentação dos itens pelo PO
+- sanar as duvidas do time
+- primeira analise do que entra e o que nao entra na sprint
+
+2 etapa > 
+- desenvolver as historias por parte
+- o PO não deve participar
+- discussão do que precisa ser feito e entregue
+- definir o sprint backlog com as prioridades, alcançando seu objetivo
+- caso necessario, cancelar e refazer.
+
+Realese Planning
+"liberação ou lançamento de software (em ingles: release) é o lançamento de nova versao oficial de produto de software. cada vez que um produto de software é criado ou modificado, o fabricante e seus desenvolvedores decidem sobre como distribuir o novo produto ou a modificação as pessoas que o utilizam."
+
+existem 2 realease planning:
+- release planning de multiplas squads
+- release planning de projeto
+
+Analisando escopo e definindo prioridades
+- entender qual o objetivo e valor que quer atingir antes de escrever o código
+
+vision board > chance
+product backlog > change
+minimal viable product V
+feedback > users
+
+Product Backlog
+composto por épicos e estórias
+
+épicos = incremento sem muito detalhamento, ajuda a direcionar os caminhos que deve seguir.
+
+estória = detalhamento dos épicos, um épico normalmente se divide em várias estórias, onde ficam descritos o que deve acontecer e suas regras de negocio.
+
+tasks = atividades
+
+Escrevendo uma Estória
+- nome da estoria
+- descrição da estória (eu, como, quero, quando)
+- regras de negocio (separar regras de front-end de regras de beck end)
+- tela (link ou imagem das telas a serem desenvolvidas)
+- KPI (quais os objetivos/valor a estória precisa atingir)
+- tangueamento (como a estória será "tagueada" para poder mensurar os KPI)
+- criterios de aceite (qual o passo a passo de todos os caminhos felizes possiveis a estoria deve cumprir para que ela seja considerada aceita)
+
+Riscos Positivos & Negativos
+positivos = muito ignorado nos projetos, porém um dos fatores de maiores ganhos no desenvolvimento de sistemas.
+
+negativos = itens que podem afetar o prazo, custo ou escopo de um projeto de maneira que pode acabar inviabilizando-o.
+
+Papel do PO na Transformação Digital
+"a transformação digital é um processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho, aumentar o alcance e garantir resultados melhores. é uma mudança estrutural nas organizações dando um papel essencial para a tecnologia."
+
+"mostrar para as pessoas como usar a tecnologia da melhor maneira possivel. diminuindo processos e atritos, potencializando resultados."
+
+Conceitos e Planejamento de Tarefas
+
+Estória vs Tarefas
+
+Épico V
+Estoria > uma tarefa descrita em nivel de negócio
+Tarefa >  um conjunto de atividades que o time desenvolvimento deve desempenhar para entregar a estória.
+
+Criterio de aceite
+"é uma lista de criterios que precisam ser alcançados para que a User Story atenda os requisitos do usuario e seja aceita pelo Product Owner."
+
+"Os criterios de aceitação tem o objetivo de: definir limites para os users stories. ajudar o PO a detalhar em alto nivel o que é necessario para entregar valor ao cliente."
+
+"criterio de aceite é uma lista de criterios que serve para que a estória atenda aos requisitos do cliente."
+
+Estimativa e Planejamento
+- planning poker - fibonach (é uma atividade de mensuração de esforços e complexidade das tarefas ou estórias.)
+- planning Tshirt size - tamanho de camisas
+
+Relacionamento com Clientes ou Stakeholder
+"o stackeholder é uma pessoa ou um grupo que ligitima as ações de uma organização e que tem um papel direto ou indireto na gestão e resultados dessa mesma organização. desta forma, um stakeholder pode ser afetado positivamente ou negativamente, dependendo das suas politicas e forma de atuação."
+
+"alguns exemplos de stakeholder de uma empresa podem ser os seus funcionarios, gestores, gerentes, proprietarios, fornecedores, concorrentes, ONGs, clientes, o Estado, credores, sindicatos e diversas outras pessoas ou empresas que estejam relacionadas com uma determinada ação ou projeto."
+
+Rotinas de um time ágil
+Daily e Retrospectiva
+- tempo total de 15min, no mesmo horario e mesmo lugar
+- não é obrigatoria a presença de PO e Scrum Master
+- discussão sobre o que agrega valor ao projeto
+- focado para o time desenvolvimento
+
+Retrospectiva
+- focada na sprint como um todo
+- o que foi feito de bom e de ruim
+- focado para o time de desenvolvimento e o scrum master
+- participação do PO opcional
+
+Refinamento
+- aumentar o entendimento da demanda
+- melhorar a qualidade da entrega
+- aumentar o retorno esperado pelo projeto
+- time deve faz as perguntas ao SM
+- facilitar a planning tornando-a acertiva
+- acontece um passo antes da planning
+- acontece um passo depois da retro e review
+
+Review
+- time de desenvolvimento mostra o trabalho que cada um desenvolveu na sprint anterior
+- duvidas de negocios tiradas pelo PO
+- todos são convidados
+- ver o que está sendo entregue, validar se esta de acordo com o solicitado, validar as mudanças no fluxo, bater com o que foi definido no refinamento e na planning e ver se agrega valor ao negocio.
+
+Maturidade da Equipe
+"é o time que anda sozinho"
+pilares do Scrum:
+Transparencia / Inspeção / Adaptação
+ comprometimento / coragem / abertura / foco / respeito
+
+
+Arquivo Readme - homepage do reposito
